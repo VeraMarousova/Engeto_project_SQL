@@ -13,4 +13,3 @@ FROM t_vera_marousova_project_sql_primary_final AS f
 WHERE f.code IN ('111301', '114201') AND 
 	f.YEAR IN (2006, 2018)
 ORDER BY f.YEAR;
-
